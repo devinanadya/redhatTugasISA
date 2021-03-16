@@ -42,7 +42,7 @@ require_once("database.php");
         echo '<td>' . $obj['id'] . '</td>';
         echo '<td>' . $obj['name'] . '</td>';
       }
-    } else {
+     else {
       echo "Empty table.";
       die();
     }
