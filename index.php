@@ -40,12 +40,11 @@ require_once("database.php");
       while ($obj = $result->fetch_assoc()) {
         echo '<tr>';
         echo '<td>' . $obj['id'] . '</td>';
-        echo '<td>' . $obj['name'] . '</td>';
-      }
+        echo '<td>' . $obj['name'] . '</td>'; }
      else {
       echo "Empty table.";
       die();
-    }
+     }
     ?>
   </table>
 
